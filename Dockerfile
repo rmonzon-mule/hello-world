@@ -4,4 +4,4 @@ COPY target/*.jar /app/
 
 EXPOSE 8081
 
-CMD ["java", "-jar", "/app/*.jar"]
+CMD ["tail", "-f", "/dev/null"]
